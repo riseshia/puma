@@ -23,6 +23,7 @@ rack_vers =
     '>= 2.2'
   end
 
+gem "sinatra", ">= 3"
 gem "rack", rack_vers
 gem "rackup" if use_rackup
 
